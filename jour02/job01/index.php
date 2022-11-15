@@ -7,8 +7,13 @@
     </head>
     <body>
         <?php
-            for($i = 1; $i <= 1337; si++){
-
+            for($i = 1; $i <= 1337; $i++){
+                if($i==42){
+                    echo '<b>'.$i.'</b>'.'<br/>';              
+                }    
+                else {
+                echo $i.'<br/>';
+            }
             }
         ?>
     </body>
